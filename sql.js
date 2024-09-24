@@ -42,5 +42,8 @@ module.exports = {
   },
   signUp: {
     query: `insert into t_user set ? on duplicate key update ?`
+  },
+  hello: {
+    query: `select * from info`
   }
 }
